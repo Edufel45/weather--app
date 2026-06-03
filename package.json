@@ -1,0 +1,8 @@
+{
+    "name": "weather-app",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "cd backend && set JAVA_HOME=C:\\Program Files\\Java\\jdk-17.0.19 && set PATH=%JAVA_HOME%\\bin;%PATH% && C:\\maven\\bin\\mvn spring-boot:run",
+        "dev": "start http://localhost:8080"
+    }
+}

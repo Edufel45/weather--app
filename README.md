@@ -1,66 +1,82 @@
-\# Weather App - Full Stack Application
+# 🌤️ Weather App - Full Stack Application
 
+[![Java](https://img.shields.io/badge/Java-17-blue.svg)](https://java.com)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.5-brightgreen.svg)](https://spring.io)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/Tests-7%20Passing-success.svg)](https://github.com/Edufel45/weather-app/actions)
 
+> A complete weather application with user authentication, real-time weather data, 5-day forecasts, and favorite cities management.
 
-A complete weather application with user authentication, weather search, 5-day forecast, and favorite cities management.
+##  Live Demo
 
+**👉 [Click Here to View Live Demo](https://Edufel45.github.io/weather-app) 👈**
 
+> No installation needed! Just click the link above.
 
-\## Technologies Used
+## 📋 Table of Contents
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Quick Start](#-quick-start)
+- [API Endpoints](#-api-endpoints)
+- [Project Structure](#-project-structure)
+- [Screenshots](#-screenshots)
+- [Testing](#-testing)
+- [License](#-license)
 
+##  Features
 
+### 🔐 Authentication
+- User registration with name, email, password
+- Secure login with JWT tokens
+- Password encryption using BCrypt
+- Protected API endpoints
 
-\- \*\*Backend\*\*: Java 17, Spring Boot 3.1.5, JWT Authentication, H2 Database
+### 🌤️ Weather
+- Search current weather by city name
+- Display temperature, humidity, wind speed
+- Real-time weather conditions
+- 5-day weather forecast
 
-\- \*\*Frontend\*\*: HTML5, CSS3, Vanilla JavaScript, Responsive Design
+### ⭐ Favorites
+- Save up to 3 favorite cities
+- View all saved cities with current weather
+- Remove cities from favorites
+- Per-user favorites management
 
-\- \*\*APIs\*\*: OpenWeatherMap Current Weather \& Forecast APIs
+###  Frontend
+- Responsive design (mobile + desktop)
+- Glass morphism UI effects
+- Video background on auth pages
+- Dynamic weather backgrounds (rain/clouds/sun)
+- Loading states and error handling
 
+## 🛠️ Tech Stack
 
+| Layer | Technology |
+|-------|------------|
+| **Backend** | Java 17, Spring Boot 3.1.5 |
+| **Security** | JWT, Spring Security, BCrypt |
+| **Database** | H2 (in-memory) |
+| **Frontend** | HTML5, CSS3, Vanilla JavaScript |
+| **API** | OpenWeatherMap API |
+| **Build Tool** | Maven |
+| **Testing** | JUnit 5, Spring Boot Test |
 
-\## Features
+##  Quick Start
 
+### Prerequisites
+- Java 17 or higher
+- Maven 3.9+
 
+### Installation
 
-✅ User Registration \& Login with JWT Authentication  
-
-✅ Search current weather by city name  
-
-✅ View 5-day weather forecast  
-
-✅ Save up to 3 favorite cities  
-
-✅ Remove cities from favorites  
-
-✅ Responsive design (mobile + desktop)  
-
-✅ Glass morphism UI with video background  
-
-✅ Dynamic weather backgrounds (rain/clouds/sunny)
-
-
-
-\## Prerequisites
-
-
-
-\- Java 17 or higher
-
-\- Maven 3.9+
-
-\- OpenWeatherMap API key
-
-
-
-\## Setup Instructions
-
-
-
-\### 1. Clone the repository
-
+1. **Clone the repository**
 ```bash
+git clone https://github.com/Edufel45/weather-app.git
+cd weather-app
+### Installation
 
-git clone https://github.com/your-username/weather-app.git
-
-cd weather-app/backend
-
+1. **Clone the repository**
+```bash
+git clone https://github.com/Edufel45/weather-app.git
+cd weather-app
