@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>Weather Dashboard</h1>
+            <button class="btn logout-btn" id="logoutBtn">Logout</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Search Section -->
+        <div class="search-section">
+            <h3>Search Weather</h3>
+            <div class="search-box">
+                <input type="text" id="cityInput" placeholder="Enter city name..." autocomplete="off">
+                <button class="btn" id="searchBtn">Search</button>
+            </div>
+        </div>
+        
+        <!-- Loading Spinner -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+        </div>
+        
+        <!-- Current Weather -->
+        <div id="currentWeather" style="display: none;">
+            <div class="weather-card">
+                <div class="weather-current">
+                    <h2 id="cityName"></h2>
+                    <div class="temp" id="temperature"></div>
+                    <div class="condition" id="condition"></div>
+                    <button class="btn" id="favoriteBtn">❤️ Save to Favorites</button>
+                    <div class="weather-details">
+                        <div class="detail">
+                            <div>Humidity</div>
+                            <div class="detail-value" id="humidity"></div>
+                        </div>
+                        <div class="detail">
+                            <div>Wind Speed</div>
+                            <div class="detail-value" id="windSpeed"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 5-Day Forecast -->
+        <div id="forecastSection" style="display: none;">
+            <div class="weather-card">
+                <h3>5-Day Forecast</h3>
+                <div id="forecastGrid" class="forecast-grid"></div>
+            </div>
+        </div>
+        
+        <!-- Favorites Section -->
+        <div class="favorites-section">
+            <h3>⭐ Favorite Cities (Max 3)</h3>
+            <div id="favoritesGrid" class="favorites-grid"></div>
+        </div>
+    </div>
+    
+    <script src="js/api.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/favorites.js"></script>
+    <script>
+        // Check if user is logged in
+        if (!API.getToken()) {
+            window.location.href = 'login.html';
+        }
+        
+        // Logout functionality
+        document.getElementById('logoutBtn').addEventListener('click', () => {
+            API.clearToken();
+            window.location.href = 'login.html';
+        });
+        
+        // Load favorites on page load
+        loadFavorites();
+    </script>
+</body>
+</html>

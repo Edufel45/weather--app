@@ -1,0 +1,34 @@
+# Compiled files
+*.class
+target/
+*.jar
+*.war
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database files
+data/
+*.mv.db
+*.trace.db
+
+# Environment
+*.properties.bak
+*.xml.bak
+
+# Temp files
+*.tmp
+*.bak
