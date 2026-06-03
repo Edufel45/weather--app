@@ -3,15 +3,11 @@
 [![Java](https://img.shields.io/badge/Java-17-blue.svg)](https://java.com)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.5-brightgreen.svg)](https://spring.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-7%20Passing-success.svg)](https://github.com/Edufel45/weather-app/actions)
+[![Tests](https://img.shields.io/badge/Tests-7%20Passing-success.svg)](https://github.com/Edufel45/weather--app/actions)
 
 > A complete weather application with user authentication, real-time weather data, 5-day forecasts, and favorite cities management.
 
-##  Live Demo
 
-**👉 [Click Here to View Live Demo](https://Edufel45.github.io/weather-app) 👈**
-
-> No installation needed! Just click the link above.
 
 ## 📋 Table of Contents
 - [Features](#-features)
@@ -23,7 +19,7 @@
 - [Testing](#-testing)
 - [License](#-license)
 
-##  Features
+## ✨ Features
 
 ### 🔐 Authentication
 - User registration with name, email, password
@@ -43,7 +39,7 @@
 - Remove cities from favorites
 - Per-user favorites management
 
-###  Frontend
+### 🎨 Frontend
 - Responsive design (mobile + desktop)
 - Glass morphism UI effects
 - Video background on auth pages
@@ -70,13 +66,7 @@
 
 ### Installation
 
-1. **Clone the repository**
+**1. Clone the repository**
 ```bash
-git clone https://github.com/Edufel45/weather-app.git
-cd weather-app
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Edufel45/weather-app.git
-cd weather-app
+git clone https://github.com/Edufel45/weather--app.git
+cd weather--app
