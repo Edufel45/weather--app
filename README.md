@@ -7,7 +7,22 @@
 
 > A complete weather application with user authentication, real-time weather data, 5-day forecasts, and favorite cities management.
 
+---
 
+## 🚨 **SCREENSHOTS AVAILABLE BELOW!** 🚨
+
+> **⚠️ If the app doesn't run on your machine for any reason, scroll down to see SCREENSHOTS of the working application.**
+> **ALL features are demonstrated in the screenshots below!**
+
+---
+
+## 🚀 Live Demo
+
+**👉 [Click Here to View Live Demo](https://Edufel45.github.io/weather--app) 👈**
+
+> No installation needed! Just click the link above.
+
+---
 
 ## 📋 Table of Contents
 - [Features](#-features)
@@ -15,9 +30,11 @@
 - [Quick Start](#-quick-start)
 - [API Endpoints](#-api-endpoints)
 - [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
+- [📸 SCREENSHOTS - SEE THE APP IN ACTION](#-screenshots---see-the-app-in-action)
 - [Testing](#-testing)
 - [License](#-license)
+
+---
 
 ## ✨ Features
 
@@ -30,7 +47,7 @@
 ### 🌤️ Weather
 - Search current weather by city name
 - Display temperature, humidity, wind speed
-- Real-time weather conditions
+- Real-time weather conditions from OpenWeatherMap
 - 5-day weather forecast
 
 ### ⭐ Favorites
@@ -46,6 +63,8 @@
 - Dynamic weather backgrounds (rain/clouds/sun)
 - Loading states and error handling
 
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -58,7 +77,9 @@
 | **Build Tool** | Maven |
 | **Testing** | JUnit 5, Spring Boot Test |
 
-##  Quick Start
+---
+
+## 🚀 Quick Start
 
 ### Prerequisites
 - Java 17 or higher
