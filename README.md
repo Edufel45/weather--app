@@ -81,14 +81,10 @@
 1. JWT tokens expire after 24 hours
 2. OpenWeatherMap free tier is sufficient for testing
 3. City names are assumed unique (first match used for ambiguous names)
-4. Temperature displayed in Celsius (default unit)
-5. Favorites are stored by city name; renaming a city won't update existing favorites
-6. No email verification required for registration
-7. Password has no complexity requirements
-8. 3-favorite limit is enforced on backend only (frontend also prevents adding more)
-9. Weather data for favorites refreshes on page load, not real-time
-10. No caching implemented (always fresh data from OpenWeatherMap)
----
+4. Temperature displayed in Celsius (default unit) 
+5. No email verification required for registration
+
+
 
 ## 🚀 Quick Start
 
