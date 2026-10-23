@@ -9,7 +9,7 @@
 
 ---
 
-## 🚨 **SCREENSHOTS AVAILABLE BELOW!** 🚨
+## 🚨 **SCREENSHOTS AVAILABLE BELOW!** 
 
 > **⚠️ If the app doesn't run on your machine for any reason, scroll down to see SCREENSHOTS of the working application.**
 > **ALL features are demonstrated in the screenshots below!**
